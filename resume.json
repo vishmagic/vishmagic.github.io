@@ -66,6 +66,9 @@
       "company": "Microsoft",
       "period": "Aug 2023 – Present",
       "bullets": [
+        "Championing AI adoption in the research community as an AI Champion and evangelist — driving experimentation, sharing learnings, and building reusable AI-powered solutions that advance research practice at scale.",
+        "Contributed two Claude Skills to the studio and org-wide toolkit, enabling PMs and designers to independently validate ideas, prototypes, and specs against existing research — surfacing where research supports, challenges, or extends a given direction without researcher involvement.",
+        "Architected an automated UX evaluation solution using Playwright and Espresso MCPs — given a user job-to-be-done, the system traverses predefined journeys and interactions to detect bugs, surface friction points, and score user job periodically.",
         "Conducted critical AI + UX Research experiments: debunking synthetic users as a concept by demonstrating their limitations, and developed frameworks for effective AI integration in research methodologies.",
         "Leading strategic user research across three product groups in M365 Core (People, Extensibility connectors and Extensibility end user experiences) in enterprise setting, influencing organizational strategy and product roadmaps.",
         "Collaborate with researchers across geographies to identify and define key competencies for Microsoft Copilot.",
