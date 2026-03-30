@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "image": null,
+    "imageAlt": "Vishwam Rajagopal"
+  },
+  "name": "VISHWAM RAJAGOPAL",
+  "title": "SENIOR UX RESEARCHER",
+  "contact": {
+    "email": "vishmagic@gmail.com",
+    "linkedin": "https://linkedin.com/in/vishwamrajagopal",
+    "linkedinLabel": "in/vishwamrajagopal"
+  },
+  "education": [
+    {
+      "degree": "Master of Fine Arts",
+      "field": "Collaborative Design",
+      "years": "2014 – 2016",
+      "institution": "Syracuse University",
+      "location": "Syracuse, NY"
+    },
+    {
+      "degree": "Bachelor of Engineering",
+      "field": "Electrical and Electronics Engineering",
+      "years": "2006 – 2010",
+      "institution": "Anna University",
+      "location": "Chennai, INDIA"
+    }
+  ],
+  "skills": [
+    {
+      "category": "UX",
+      "items": [
+        "Interview, Survey, Ethnographic research, Usability Testing, Diary Studies, Mixed method research, Workflow evaluation methods",
+        "Data analysis — Quantitative and Qualitative, Persona creation, Journey mapping, JTBD framework",
+        "UX/UI Design principles, Design thinking, Wireframe, Prototype building, High fidelity design"
+      ]
+    },
+    {
+      "category": "AI",
+      "items": [
+        "Research-specific LLM advanced prompting/prompt engineering, Building custom agents"
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        "Usertesting.com, Userzoom, dscout, Qualtrics, Google Analytics, Adobe suite, Figma, MS Office suite"
+      ]
+    },
+    {
+      "category": "Programming",
+      "items": [
+        "HTML/CSS, JavaScript, React, SQL/PL-SQL, MongoDB, MATLAB"
+      ]
+    }
+  ],
+  "awards": [
+    "Skillup AI certification",
+    "E+D Hackathon winner 2024",
+    "Global Hackathon special mention 2023",
+    "Global Hackathon winner 2022 (local venue award)"
+  ],
+  "experience": [
+    {
+      "title": "Senior Design Researcher",
+      "company": "Microsoft",
+      "period": "Aug 2023 – Present",
+      "bullets": [
+        "Conducted critical AI + UX Research experiments: debunking synthetic users as a concept by demonstrating their limitations, and developed frameworks for effective AI integration in research methodologies.",
+        "Leading strategic user research across three product groups in M365 Core (People, Extensibility connectors and Extensibility end user experiences) in enterprise setting, influencing organizational strategy and product roadmaps.",
+        "Collaborate with researchers across geographies to identify and define key competencies for Microsoft Copilot.",
+        "Established research enablement program for design and product teams, including regular office hours and knowledge-sharing sessions that empower non-researchers to conduct basic user research.",
+        "Fostered stakeholder culture where research insights drive decision-making, resulting in more user-centered product development.",
+        "Core team member for an India-wide research learning initiative, organizing sessions and contributing through workshops, technique presentations, and case studies.",
+        "Mentor researchers and designers in enterprise user research methodologies and AI-augmented research approaches."
+      ]
+    },
+    {
+      "title": "UX Researcher 2",
+      "company": "Microsoft",
+      "period": "Feb 2022 – Aug 2023",
+      "bullets": [
+        "Lead the research initiatives within the M365 core — People area.",
+        "Developed and executed a comprehensive research strategy encompassing formative and summative studies to inform the launch of the new People App in Teams, serving over 2 million daily active users in 2 weeks of launch.",
+        "Partnered with fellow researchers across the global M365 core, amplifying our collective expertise and insights in the domains of People to inform product development.",
+        "Played a pivotal role in shaping the long-term product direction via research insights to influence product roadmaps."
+      ]
+    },
+    {
+      "title": "Senior UX Researcher",
+      "company": "MathWorks",
+      "period": "Apr 2021 – Dec 2021",
+      "bullets": [
+        "Crafted research-driven design strategies to understand and tackle the right user issues.",
+        "Collaborated with a UX team across geography to improve cross product workflows.",
+        "Planned and moderated user studies across geographies involving non-English speaking users.",
+        "Mentored my team of researchers."
+      ]
+    },
+    {
+      "title": "UX Specialist",
+      "company": "MathWorks",
+      "period": "Apr 2018 – Mar 2021",
+      "bullets": [
+        "Identified and captured user roles and goals by conducting contextual interviews with different stakeholders.",
+        "Collected customer requirements, product usage, and demographic data by designing surveys. Identified pain points in the current workflow through journey mapping, CARD methodology and secondary research.",
+        "Generated design ideas by facilitating design sprints and workshops with the development team.",
+        "Designed deliverables of different fidelity ranging from wireframe sketches to high-fidelity design at different stages of product development.",
+        "Validated GUI and API designs by building interactive prototypes and setting up usability studies.",
+        "Validated workflows by conducting studies using PURE methodology."
+      ]
+    },
+    {
+      "title": "UX Designer",
+      "company": "Cross Screen Media",
+      "period": "Nov 2017 – Feb 2018",
+      "bullets": [
+        "Collaborated with product managers, engineers, and stakeholders to understand requirements and provide creative, thoughtful solutions.",
+        "Integrated user research into product designs and strategy.",
+        "Communicated complex concepts clearly across different audiences to influence product design strategy.",
+        "Conveyed the user experiences through wireframes, mockups, and high fidelity prototypes."
+      ]
+    },
+    {
+      "title": "UX Architect",
+      "company": "Aten Design Group",
+      "period": "May 2017 – Sep 2017",
+      "bullets": [
+        "Established the business goals and user goals by conducting user and stakeholder interviews.",
+        "Identified gaps and opportunities by analyzing business and user goals.",
+        "Built user empathy with stakeholders and mapped pain points using Journey mapping and Personas.",
+        "Built shared understanding of the existing challenges by facilitating core model workshop and card sorting exercises with clients.",
+        "Built information architecture that addresses both business and user goals with sitemaps, wireframes and content type and taxonomy creation using Drupal.",
+        "Improved user experience by collaborating with designers, product managers and developers."
+      ]
+    },
+    {
+      "title": "UX Research Intern",
+      "company": "Redfin",
+      "period": "Jul 2016 – Dec 2016",
+      "bullets": [
+        "Gathered user insights by implementing in-house and remote usability studies and interviews.",
+        "Understood user pain points and key opportunity areas using user journey mapping.",
+        "Collaborated with designers and product managers to share insights and improve user experience.",
+        "Established the user experiences at each stage of the user journey by conducting benchmarking studies.",
+        "Researched and applied creative approaches to create shared understanding of the user problems.",
+        "Adapted collaborative approaches to design sprint process to make it more effective."
+      ]
+    }
+  ],
+  "otherExperience": [
+    { "title": "Teaching Assistant", "company": "Syracuse University" },
+    { "title": "Design Research Assistant", "company": "KBL Studio" },
+    { "title": "Software Engineer", "company": "CGI" }
+  ]
+}
