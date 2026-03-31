@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vishwam Rajagopal — Senior UX Researcher</title>
+  <title>Vishwam Rajagopal</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -11,18 +11,21 @@
 </head>
 <body>
 
-  <div class="controls" id="controls">
-    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
-      <span class="icon-light">☀️</span>
-      <span class="icon-dark">🌙</span>
-    </button>
-    <button id="pdf-btn" aria-label="Download PDF" title="Save as PDF" onclick="window.print()">
-      ↓ PDF
-    </button>
-  </div>
+  <nav class="site-nav" id="site-nav">
+    <div class="nav-inner">
+      <div class="nav-links">
+        <a href="index.html" class="nav-link active">About</a>
+        <a href="resume.html" class="nav-link">Resume</a>
+      </div>
+      <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span class="icon-light">☀️</span>
+        <span class="icon-dark">🌙</span>
+      </button>
+    </div>
+  </nav>
 
-  <main id="resume" role="main"></main>
+  <main id="about" role="main"></main>
 
-  <script src="js/profile.js"></script>
+  <script src="js/about.js"></script>
 </body>
 </html>

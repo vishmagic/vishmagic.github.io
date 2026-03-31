@@ -45,35 +45,73 @@ body {
   color: var(--text);
   line-height: 1.6;
   transition: background 0.25s, color 0.25s;
-  padding: 2rem 1rem 4rem;
+  padding: 0 1rem 4rem;
 }
 
-/* ─── Controls (floating) ───────────────────────────────────── */
-.controls {
-  position: fixed;
-  top: 1.25rem;
-  right: 1.25rem;
+/* ─── Nav ────────────────────────────────────────────────────── */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  transition: background 0.25s, border-color 0.25s;
+}
+
+.nav-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0.75rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  color: var(--text-muted);
+  transition: color 0.2s, background 0.2s;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover {
+  color: var(--text);
+  background: var(--accent-light);
+}
+
+.nav-link.active {
+  color: var(--accent);
+}
+
+.nav-actions {
   display: flex;
   gap: 0.5rem;
-  z-index: 100;
 }
 
-.controls button {
-  background: var(--ctrl-bg);
-  color: var(--ctrl-text);
-  border: 1px solid var(--ctrl-border);
+.site-nav button {
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
   border-radius: 6px;
-  padding: 0.4rem 0.75rem;
+  padding: 0.35rem 0.7rem;
   font-family: var(--font);
   font-size: 0.8rem;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: var(--shadow);
   transition: background 0.2s, color 0.2s, border-color 0.2s;
   letter-spacing: 0.02em;
 }
 
-.controls button:hover {
+.site-nav button:hover {
   background: var(--accent);
   color: #fff;
   border-color: var(--accent);
@@ -83,10 +121,109 @@ body {
 [data-theme="dark"] #theme-toggle .icon-light { display: none; }
 [data-theme="dark"] #theme-toggle .icon-dark  { display: inline; }
 
+/* ─── About Page ─────────────────────────────────────────────── */
+#about {
+  max-width: var(--max-width);
+  margin: 3rem auto 0;
+  padding: 0;
+}
+
+.about-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 3rem 3.5rem;
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  transition: background 0.25s, box-shadow 0.25s;
+}
+
+.about-image-wrap {
+  flex-shrink: 0;
+}
+
+.about-image {
+  width: 160px;
+  height: 160px;
+  border-radius: var(--radius);
+  object-fit: cover;
+  border: 1px solid var(--border);
+  display: block;
+}
+
+.about-image-placeholder {
+  width: 160px;
+  height: 160px;
+  border-radius: var(--radius);
+  background: var(--accent-light);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: var(--accent);
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-name {
+  font-size: 1.85rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: var(--text);
+  line-height: 1.1;
+}
+
+.about-tagline {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-top: 0.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-bio p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.75;
+  margin-bottom: 0.9rem;
+}
+
+.about-bio p:last-child { margin-bottom: 0; }
+
+.about-links {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.about-links a {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  border: 1px solid var(--border);
+  padding: 0.3rem 0.75rem;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.about-links a:hover {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
 /* ─── Resume Card ───────────────────────────────────────────── */
 #resume {
   max-width: var(--max-width);
-  margin: 0 auto;
+  margin: 2rem auto 0;
   background: var(--bg-card);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -370,7 +507,7 @@ body {
     print-color-adjust: exact;
   }
 
-  .controls { display: none !important; }
+  .site-nav { display: none !important; }
 
   #resume {
     max-width: 100%;
@@ -390,6 +527,17 @@ body {
 /* ─── Responsive ────────────────────────────────────────────── */
 @media (max-width: 640px) {
   #resume { padding: 1.75rem 1.25rem; }
+  #about  { margin-top: 1.5rem; }
+
+  .about-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.75rem 1.25rem;
+    gap: 1.5rem;
+  }
+
+  .about-links { justify-content: center; }
 
   .resume-header {
     flex-direction: column;

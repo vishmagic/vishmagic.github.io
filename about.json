@@ -1,0 +1,19 @@
+{
+  "name": "Vishwam Rajagopal",
+  "tagline": "Senior UX Researcher",
+  "image": null,
+  "imageAlt": "Vishwam Rajagopal",
+  "bio": [
+    "Placeholder — add your bio paragraph here. Tell people who you are, what you care about, and what drives your work."
+  ],
+  "links": [
+    {
+      "label": "vishmagic@gmail.com",
+      "href": "mailto:vishmagic@gmail.com"
+    },
+    {
+      "label": "in/vishwamrajagopal",
+      "href": "https://linkedin.com/in/vishwamrajagopal"
+    }
+  ]
+}
