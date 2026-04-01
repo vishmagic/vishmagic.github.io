@@ -1,10 +1,11 @@
 {
   "name": "Vishwam Rajagopal",
   "tagline": "Senior UX Researcher",
-  "image": null,
-  "imageAlt": "Vishwam Rajagopal",
+  "image": "assets/ProfilePic.jpg",
+  "imageAlt": "Vishwam playing football on the beach",
   "bio": [
-    "Placeholder — add your bio paragraph here. Tell people who you are, what you care about, and what drives your work."
+    "I am passionate about trying to understand and make sense of systems and the hacks that people create to achieve their goals. I believe in the power of shared truth, fostering collaboration with fellow researchers and stakeholders alike.",
+    "Outside of work, I am embracing the journey of parenthood alongside my spouse, embarking on the adventure of learning with my 2-year-old bundle of joy. When not on this journey, I enjoy playing football."
   ],
   "links": [
     {
