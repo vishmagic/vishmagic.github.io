@@ -45,6 +45,16 @@ async function render() {
       .map(l => `<a href="${esc(l.href)}" ${l.href.startsWith('http') ? 'target="_blank" rel="noopener noreferrer"' : ''}>${esc(l.label)}</a>`)
       .join('');
 
+    const contributionsHTML = data.contributions ? `
+      <div class="contributions-card">
+        <div class="section-title">${esc(data.contributions.title)}</div>
+        <img
+          class="contributions-image"
+          src="${esc(data.contributions.image)}"
+          alt="${esc(data.contributions.imageAlt || data.contributions.title)}"
+        >
+      </div>` : '';
+
     container.innerHTML = `
       <div class="about-card">
         ${imageHTML}
@@ -54,7 +64,8 @@ async function render() {
           <div class="about-bio">${bioHTML}</div>
           ${linksHTML ? `<div class="about-links">${linksHTML}</div>` : ''}
         </div>
-      </div>`;
+      </div>
+      ${contributionsHTML}`;
 
     document.title = esc(data.name);
   } catch (err) {

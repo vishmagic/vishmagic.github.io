@@ -16,5 +16,10 @@
       "label": "in/vishwamrajagopal",
       "href": "https://linkedin.com/in/vishwamrajagopal"
     }
-  ]
+  ],
+  "contributions": {
+    "title": "GitHub Contributions",
+    "image": "assets/Github.png",
+    "imageAlt": "GitHub contribution graph"
+  }
 }

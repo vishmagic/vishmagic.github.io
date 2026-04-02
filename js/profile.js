@@ -98,6 +98,7 @@ function renderExperience(experience) {
           <div class="exp-title-company">
             <span class="exp-title">${esc(e.title)}</span>
             <span class="exp-company">${esc(e.company)}</span>
+            ${e.location ? `<span class="exp-location">${esc(e.location)}</span>` : ''}
           </div>
           <span class="exp-period">${esc(e.period)}</span>
         </div>

@@ -135,19 +135,21 @@ body {
   padding: 3rem 3.5rem;
   display: flex;
   gap: 2.5rem;
-  align-items: flex-start;
+  align-items: stretch;
   transition: background 0.25s, box-shadow 0.25s;
 }
 
 .about-image-wrap {
   flex-shrink: 0;
+  display: flex;
 }
 
 .about-image {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 100%;
   border-radius: var(--radius);
   object-fit: cover;
+  object-position: center top;
   border: 1px solid var(--border);
   display: block;
 }
@@ -218,6 +220,24 @@ body {
   background: var(--accent);
   color: #fff;
   border-color: var(--accent);
+}
+
+/* ─── Contributions Card ────────────────────────────────────── */
+.contributions-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2rem 3.5rem;
+  margin-top: 1.25rem;
+  transition: background 0.25s, box-shadow 0.25s;
+}
+
+.contributions-image {
+  width: 100%;
+  display: block;
+  border-radius: calc(var(--radius) - 2px);
+  border: 1px solid var(--border);
+  margin-top: 1rem;
 }
 
 /* ─── Resume Card ───────────────────────────────────────────── */
@@ -429,6 +449,11 @@ body {
   font-size: 0.82rem;
   font-weight: 500;
   color: var(--accent);
+}
+
+.exp-location {
+  font-size: 0.78rem;
+  color: var(--text-subtle);
 }
 
 .exp-period {
