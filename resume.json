@@ -38,13 +38,13 @@
     {
       "category": "AI",
       "items": [
-        "Research-specific LLM advanced prompting/prompt engineering, Building custom agents"
+        "Research-specific LLM advanced prompting/prompt engineering, Building custom agents, Vibe coding, Vibe designing"
       ]
     },
     {
       "category": "Tools",
       "items": [
-        "Usertesting.com, Userzoom, dscout, Qualtrics, Google Analytics, Adobe suite, Figma, MS Office suite"
+        "Usertesting.com, Userzoom, dscout, Qualtrics, Google Analytics, Adobe suite, Figma, MS Office suite, GitHub Copilot, Claude Code"
       ]
     },
     {
@@ -67,6 +67,7 @@
       "location": "Bengaluru, IN",
       "period": "Aug 2023 – Present",
       "bullets": [
+        "Leading foundational research that shapes Microsoft's agentic experiences — from defining opportunity areas for frontier/experimental agents to informing the design of agents already in market.",
         "Championing AI adoption in the research community as an AI Champion and evangelist — driving experimentation, sharing learnings, and building reusable AI-powered solutions that advance research practice at scale.",
         "Contributed two Claude Skills to the studio and org-wide toolkit, enabling PMs and designers to independently validate ideas, prototypes, and specs against existing research — surfacing where research supports, challenges, or extends a given direction without researcher involvement.",
         "Architected an automated UX evaluation solution using Playwright and Espresso MCPs — given a user job-to-be-done, the system traverses predefined journeys and interactions to detect bugs, surface friction points, and score user job periodically.",
