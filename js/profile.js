@@ -40,6 +40,9 @@ function renderHeader(data) {
         <a href="${esc(data.contact.linkedin)}" target="_blank" rel="noopener noreferrer">
           ${esc(data.contact.linkedinLabel)}
         </a>
+        <a href="${esc(data.contact.github)}" target="_blank" rel="noopener noreferrer">
+          ${esc(data.contact.githubLabel)}
+        </a>
       </div>
     </header>`;
 }
