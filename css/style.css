@@ -510,6 +510,10 @@ body {
 }
 
 /* ─── Print / PDF ───────────────────────────────────────────── */
+@page {
+  margin: 0;
+}
+
 @media print {
   :root {
     --bg:          #FFFFFF;
