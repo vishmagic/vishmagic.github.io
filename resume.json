@@ -12,20 +12,70 @@
     "github": "https://vishmagic.github.io",
     "githubLabel": "vishmagic.github.io"
   },
-  "education": [
+  "experience": [
     {
-      "degree": "Master of Fine Arts",
-      "field": "Collaborative Design",
-      "years": "2014 – 2016",
-      "institution": "Syracuse University",
-      "location": "Syracuse, NY"
+      "title": "Senior Design Researcher",
+      "company": "Microsoft",
+      "location": "Bengaluru, IN",
+      "period": "Aug 2023 – Present",
+      "bullets": [
+        "Lead the research for M365 AI experiences across the People, Connectors, and Extensibility charters, supporting 12 PMs and 8 designers across 3 Core teams.",
+        "Define opportunity areas for frontier solutions before they have a product spec, and inform the design of AI solutions already in market. Ground evalsets and assertions in scenarios drawn from user research to measure how solutions perform against real-world use cases rather than a synthetic dataset.",
+        "Ran foundational research on the agent-builder experience, establishing that people arrive with a clear goal for what they want an agent to do but no clear specification for how it should work, and have no way to tell which of their instructions an agent actually follows — so they judge agents holistically against real scenarios rather than verifying instruction by instruction. Findings directly shaped the design of the agent-building experience.",
+        "Mentor 3 researchers in user research process and methodologies. Trained 8 designers and 12 PMs in research approaches, study design, moderation, and AI-powered research methods through office hours, enabling 36 studies run independently by PMs and designers.",
+        "Champion AI adoption in the research community — driving experimentation, sharing learnings, and building reusable AI-powered solutions that advance research practice at scale. AI can carry the mechanical weight of research, but the ground truth it is measured against has to come from real people.",
+        "Contributed 18 Claude Skills to the studio and org-wide toolkit, wired into frontier-space core teams through GitHub automation so they run on their own rather than on request — ideas, prototypes, and specs are checked against existing research as a matter of course, surfacing where research supports, challenges, or extends a given direction.",
+        "Architected an automated UX evaluation solution using MCPs — given a user job-to-be-done, the system traverses predefined journeys and interactions to detect bugs, surface friction points, and score the user job periodically. Runs against 7 user journeys and 1 design flow spanning Teams and Windows experiences, catching close to 40 verified craft bugs.",
+        "Ran the experiments that established synthetic users as unfit to replace real participants: synthetic responses hold up on logical or normative reasoning but diverge once a question turns on preference formed by lived experience. Developed approaches for effective AI integration in research methodologies on that basis."
+      ]
     },
     {
-      "degree": "Bachelor of Engineering",
-      "field": "Electrical and Electronics Engineering",
-      "years": "2006 – 2010",
-      "institution": "Anna University",
-      "location": "Chennai, INDIA"
+      "title": "UX Researcher 2",
+      "company": "Microsoft",
+      "location": "Bengaluru, IN",
+      "period": "Feb 2022 – Aug 2023",
+      "bullets": [
+        "Led the research initiatives within M365 Core — People area.",
+        "Developed and executed a comprehensive research strategy encompassing formative and summative studies, surfacing hidden user mental models, rediscovering the personas, and surfacing 12 core user jobs to inform the launch of the new People App in Teams, which served over 2 million daily active users within 2 weeks of launch.",
+        "Challenged a product direction that treated users' work and personal lives as a single conflated experience across Microsoft offerings. Cross-team synthesis with researchers across global M365 Core showed the boundary was far more nuanced than assumed, reframing “I want to access all my information across work and life together” to “I want to access my relevant/important information across work and life with a degree of separation”.",
+        "Partnered with fellow researchers across global M365 Core, amplifying our collective expertise and insights in the People domain to inform product development.",
+        "Fostered a stakeholder culture where research insights drove decision-making, resulting in more user-centered product development than the prior telemetry- and intuition-based approach.",
+        "Served as a core team member for an India-wide research learning initiative, organizing sessions and contributing through workshops, technique presentations, and case studies."
+      ]
+    },
+    {
+      "title": "Senior UX Researcher",
+      "company": "MathWorks",
+      "location": "Bengaluru, IN",
+      "period": "Apr 2021 – Dec 2021",
+      "bullets": [
+        "Crafted research-driven design strategies to understand and tackle the right user issues, adapting Google's UX design sprint approach to the MathWorks way of working.",
+        "Collaborated with a UX team across geographies to improve cross-product workflows in MATLAB Coder and the Simulink Toolstrip, uncovering user jobs and surfacing user mental models across the Coder and Variant workflows.",
+        "Planned and moderated user studies across geographies involving non-English-speaking users, focusing on Japanese participants to reach a key geography in our customer pool.",
+        "Built research capability within the team by mentoring 2 researchers on core methodologies and practice — raising the floor on research quality and independence."
+      ]
+    },
+    {
+      "title": "UX Specialist",
+      "company": "MathWorks",
+      "location": "Bengaluru, IN",
+      "period": "Apr 2018 – Mar 2021",
+      "bullets": [
+        "Captured user roles, goals, and requirements through contextual interviews with stakeholders and surveys covering product usage and demographics.",
+        "Identified pain points in existing workflows through journey mapping, CARD methodology, and secondary research.",
+        "Designed deliverables from wireframe sketches through high-fidelity designs and interactive prototypes, validating GUI and API designs through usability studies and PURE evaluations."
+      ]
+    },
+    {
+      "title": "Earlier — Design & Research",
+      "company": "Cross Screen Media · Aten Design Group · Redfin",
+      "location": "United States",
+      "period": "2016 – 2018",
+      "bullets": [
+        "UX Designer, Cross Screen Media · Alexandria, US · Nov 2017 – Feb 2018; UX Architect, Aten Design Group · Denver, US · May 2017 – Sep 2017; UX Research Intern, Redfin · Seattle, US · Jul 2016 – Dec 2016.",
+        "Client-side and product-side work spanning information architecture, core model workshops, card sorting, benchmarking studies, and journey mapping — the design fluency that still shapes how I scope research and prototype against it.",
+        "Prior to design: Software Engineer, CGI (2010 – 2014). Teaching Assistant, Syracuse University; Design Research Assistant, KBL Studio."
+      ]
     }
   ],
   "skills": [
@@ -56,112 +106,26 @@
       ]
     }
   ],
+  "education": [
+    {
+      "degree": "Master of Fine Arts",
+      "field": "Collaborative Design",
+      "years": "2014 – 2016",
+      "institution": "Syracuse University",
+      "location": "Syracuse, NY"
+    },
+    {
+      "degree": "Bachelor of Engineering",
+      "field": "Electrical and Electronics Engineering",
+      "years": "2006 – 2010",
+      "institution": "Anna University",
+      "location": "Chennai, INDIA"
+    }
+  ],
   "awards": [
     "Skillup AI certification",
     "E+D Hackathon winner 2024",
     "Global Hackathon special mention 2023",
     "Global Hackathon winner 2022 (local venue award)"
-  ],
-  "experience": [
-    {
-      "title": "Senior Design Researcher",
-      "company": "Microsoft",
-      "location": "Bengaluru, IN",
-      "period": "Aug 2023 – Present",
-      "bullets": [
-        "Leading foundational research that shapes Microsoft's agentic experiences — from defining opportunity areas for frontier/experimental agents to informing the design of agents already in market.",
-        "Leading user research across M365 AI Experiences across People, Connectors and Extensibility charters influencing strategy and product roadmap.",
-        "Championing AI adoption in the research community as an AI Champion and evangelist — driving experimentation, sharing learnings, and building reusable AI-powered solutions that advance research practice at scale.",
-        "Contributed two Claude Skills to the studio and org-wide toolkit, enabling PMs and designers to independently validate ideas, prototypes, and specs against existing research — surfacing where research supports, challenges, or extends a given direction without researcher involvement.",
-        "Architected an automated UX evaluation solution using Playwright and Espresso MCPs — given a user job-to-be-done, the system traverses predefined journeys and interactions to detect bugs, surface friction points, and score user job periodically.",
-        "Conducted critical AI + UX Research experiments: debunking synthetic users as a concept by demonstrating their limitations, and developed frameworks for effective AI integration in research methodologies.",
-        "Identifying and defining key competencies for Microsoft Copilot by partnering with researchers across interconnected product spaces to consolidate and amplify research insights.",
-        "Core team member for an India-wide research learning initiative, organizing sessions and contributing through workshops, technique presentations, and case studies.",
-        "Mentor researchers and designers in user research methodologies and AI powered research approaches."
-      ]
-    },
-    {
-      "title": "UX Researcher 2",
-      "company": "Microsoft",
-      "location": "Bengaluru, IN",
-      "period": "Feb 2022 – Aug 2023",
-      "bullets": [
-        "Lead the research initiatives within the M365 core — People area.",
-        "Developed and executed a comprehensive research strategy encompassing formative and summative studies to inform the launch of the new People App in Teams, serving over 2 million daily active users in 2 weeks of launch.",
-        "Partnered with fellow researchers across the global M365 core, amplifying our collective expertise and insights in the domains of People to inform product development.",
-        "Fostered stakeholder culture where research insights drive decision-making, resulting in more user-centered product development."
-      ]
-    },
-    {
-      "title": "Senior UX Researcher",
-      "company": "MathWorks",
-      "location": "Bengaluru, IN",
-      "period": "Apr 2021 – Dec 2021",
-      "bullets": [
-        "Crafted research-driven design strategies to understand and tackle the right user issues.",
-        "Collaborated with a UX team across geography to improve cross product workflows in MATLAB Coder and Simulink.",
-        "Planned and moderated user studies across geographies involving non-English speaking users.",
-        "Built research capability within the team by mentoring researchers on core methodologies and practice — raising the floor on research quality and independence."
-      ]
-    },
-    {
-      "title": "UX Specialist",
-      "company": "MathWorks",
-      "location": "Bengaluru, IN",
-      "period": "Apr 2018 – Mar 2021",
-      "bullets": [
-        "Identified and captured user roles and goals by conducting contextual interviews with different stakeholders.",
-        "Collected customer requirements, product usage, and demographic data by designing surveys. Identified pain points in the current workflow through journey mapping, CARD methodology and secondary research.",
-        "Generated design ideas by facilitating design sprints and workshops with the development team.",
-        "Designed deliverables of different fidelity ranging from wireframe sketches to high-fidelity design at different stages of product development.",
-        "Validated GUI and API designs by building interactive prototypes and setting up usability studies.",
-        "Validated workflows by conducting studies using PURE methodology."
-      ]
-    },
-    {
-      "title": "UX Designer",
-      "company": "Cross Screen Media",
-      "location": "Alexandria, US",
-      "period": "Nov 2017 – Feb 2018",
-      "bullets": [
-        "Collaborated with product managers, engineers, and stakeholders to understand requirements and provide creative, thoughtful solutions.",
-        "Integrated user research into product designs and strategy.",
-        "Communicated complex concepts clearly across different audiences to influence product design strategy.",
-        "Conveyed the user experiences through wireframes, mockups, and high fidelity prototypes."
-      ]
-    },
-    {
-      "title": "UX Architect",
-      "company": "Aten Design Group",
-      "location": "Denver, US",
-      "period": "May 2017 – Sep 2017",
-      "bullets": [
-        "Established the business goals and user goals by conducting user and stakeholder interviews.",
-        "Identified gaps and opportunities by analyzing business and user goals.",
-        "Built user empathy with stakeholders and mapped pain points using Journey mapping and Personas.",
-        "Built shared understanding of the existing challenges by facilitating core model workshop and card sorting exercises with clients.",
-        "Built information architecture that addresses both business and user goals with sitemaps, wireframes and content type and taxonomy creation using Drupal.",
-        "Improved user experience by collaborating with designers, product managers and developers."
-      ]
-    },
-    {
-      "title": "UX Research Intern",
-      "company": "Redfin",
-      "location": "Seattle, US",
-      "period": "Jul 2016 – Dec 2016",
-      "bullets": [
-        "Gathered user insights by implementing in-house and remote usability studies and interviews.",
-        "Understood user pain points and key opportunity areas using user journey mapping.",
-        "Collaborated with designers and product managers to share insights and improve user experience.",
-        "Established the user experiences at each stage of the user journey by conducting benchmarking studies.",
-        "Researched and applied creative approaches to create shared understanding of the user problems.",
-        "Adapted collaborative approaches to design sprint process to make it more effective."
-      ]
-    }
-  ],
-  "otherExperience": [
-    { "title": "Teaching Assistant", "company": "Syracuse University" },
-    { "title": "Design Research Assistant", "company": "KBL Studio" },
-    { "title": "Software Engineer", "company": "CGI" }
   ]
 }
