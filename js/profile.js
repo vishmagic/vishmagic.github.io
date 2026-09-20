@@ -141,11 +141,10 @@ async function render() {
 
     container.innerHTML =
       renderHeader(data) +
-      renderEducation(data.education) +
-      renderSkills(data.skills) +
-      renderAwards(data.awards) +
       renderExperience(data.experience) +
-      renderOtherExperience(data.otherExperience);
+      renderSkills(data.skills) +
+      renderEducation(data.education) +
+      renderAwards(data.awards);
 
     document.title = `${data.name} — ${data.title}`;
   } catch (err) {
