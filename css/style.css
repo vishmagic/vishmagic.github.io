@@ -546,9 +546,16 @@ body {
     margin: 0;
   }
 
-  .exp-entry { page-break-inside: avoid; }
+  .section,
+  .exp-entry { page-break-inside: auto; }
 
-  .section { page-break-inside: avoid; }
+  .section-title,
+  .exp-header,
+  .edu-entry,
+  .exp-bullets li { page-break-inside: avoid; }
+
+  .section-title,
+  .exp-header { page-break-after: avoid; }
 
   a { color: inherit; text-decoration: none; }
 }
