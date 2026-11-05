@@ -1,0 +1,332 @@
+{
+  "categories": [
+    {
+      "id": "research-for-ai",
+      "label": "Research for AI experiences",
+      "descriptor": "Studying how people use AI",
+      "tag": "Research for AI",
+      "home": "list"
+    },
+    {
+      "id": "research-for-non-ai",
+      "label": "Research for non-AI products",
+      "descriptor": "Research on established products",
+      "tag": "Research for non-AI",
+      "home": "list"
+    },
+    {
+      "id": "research-with-ai",
+      "label": "Research with AI",
+      "descriptor": "Scaling research and craft with AI, and testing where it falls short",
+      "tag": "Research with AI",
+      "home": "list"
+    },
+    {
+      "id": "playground",
+      "label": "Playground",
+      "descriptor": "How I explore and build outside the day job",
+      "home": "playground"
+    }
+  ],
+  "items": [
+    {
+      "slug": "frontier-ai-devops",
+      "category": "research-for-ai",
+      "title": "Frontier AI for DevOps workflows",
+      "hook": "Turning DevOps workflows into AI skills and evals grounded in real practice",
+      "confidential": true,
+      "role": "Led research end to end, from discovery to validation. Partnered with a product manager, a designer and a data scientist.",
+      "stats": [
+        { "value": "34", "label": "Practitioners" },
+        { "value": "2", "label": "Research phases" },
+        { "value": "6", "label": "New skills, in internal dogfood" },
+        { "value": "46", "label": "Evalsets" }
+      ],
+      "why": {
+        "frame": "In AI chat, the response is the experience. People don't work in one app. Their work runs across an ecosystem of tools, so AI only helps if it understands the workflow around the question.",
+        "insight": "AI is increasing output and delivery pressure, but human systems are not absorbing either cleanly.",
+        "quote": "The development time is already being short enough with the help of LLM models. But the other things, which are integration with different teams, the dependencies with different teams, these still remain the same.",
+        "attribution": "Enterprise Engineering Lead"
+      },
+      "phases": [
+        {
+          "name": "Understanding the domain and the users",
+          "space": "Problem space",
+          "outcomes": ["User jobs and pains", "User workflows \u2192 skills"]
+        },
+        {
+          "name": "Scenario deep dives",
+          "space": "Solution space",
+          "outcomes": ["User mental models \u2192 evals and assertions"]
+        }
+      ],
+      "outcomes": [
+        "46 evalsets with assertions grounded in end-user workflows, improving core Copilot quality.",
+        "6 new skills across enterprise connectors for the DevOps domain, now in internal dogfood."
+      ],
+      "judgmentCalls": [
+        {
+          "label": "Recruiting",
+          "text": "Advanced skill users were scarce and needed vendor support. I **repivoted the foundational study to workflows**, which still shaped the product.",
+          "learning": "Vendor support earlier could have changed the sequence of the study."
+        },
+        {
+          "label": "Engagement",
+          "text": "The planned diary study drew little engagement. With a product manager and a data scientist, I **built the skills and a prototype with AI instead**.",
+          "learning": "A diary study could have given more depth, but this approach got us out sooner and fed learning into the next research phase."
+        },
+        {
+          "label": "Realism",
+          "text": "Validation needed more than a fixed-path prototype, and prototypes can't be deployed into customer environments. With the same partners, I **built a tool and a synthetic-data environment** close to real deployment, and validated with real users.",
+          "learning": "How testing of AI products is shifting, and what becomes possible when prototypes are built close to real rather than on fixed paths."
+        }
+      ],
+      "visuals": [
+        { "src": "assets/FrontierAI_HowweWork-web.png", "alt": "Research artifacts organized by phase in a shared repository", "caption": "Ways of working: interviews, insights and scripts organized by research phase" },
+        { "src": "assets/FrontierAI_Prototype-web.png", "alt": "Prototype showing connected servers and skills", "caption": "The working prototype" },
+        { "src": "assets/FrontierAI_Evals-web.png", "alt": "Evalset sheet of user expectations scored across surfaces", "caption": "Evalset sheet: user expectations and assertions, scored across surfaces" }
+      ],
+      "cta": {
+        "label": "Request the full deck",
+        "href": "mailto:vishmagic@gmail.com?subject=Deck%20request%3A%20Frontier%20AI%20for%20DevOps%20workflows"
+      }
+    },
+    {
+      "slug": "craft-evaluator",
+      "category": "research-with-ai",
+      "title": "Craft Evaluator",
+      "hook": "Scaling UX craft evaluation with AI, without losing human judgment",
+      "confidential": false,
+      "role": "Architected the evaluation system.",
+      "why": {
+        "frame": "As products grow more complex, it gets harder to consistently catch UX regressions. This work shows how AI can evaluate user jobs at scale, while human judgment stays central to decision making.",
+        "insight": "Craft needs to scale. Quality must be repeatable, not heroic.",
+        "insightLabel": "The principle"
+      },
+      "sections": [
+        {
+          "title": "What scaling craft requires",
+          "list": [
+            "Quality runs that are repeatable.",
+            "Issues caught continuously, so regressions don't slip through.",
+            "Craft applied across journeys, not one-off reviews."
+          ]
+        },
+        {
+          "title": "How it works",
+          "paragraphs": [
+            "Three building blocks: a scenario block, a rule block and an AI orchestration block. The rules define:"
+          ],
+          "list": [
+            "Job goals and end-to-end journeys",
+            "Key states captured through screenshots",
+            "What to look for at each state",
+            "Evaluation and interaction rules",
+            "A scoring framework and structured output"
+          ],
+          "visuals": [
+            { "src": "assets/CraftEvaluator_Tool-web.png", "alt": "The UX Evals tool with web, Figma prototype and mobile evals", "caption": "The evaluator's workspace: web, prototype and mobile evals" }
+          ]
+        },
+        {
+          "title": "Sample output",
+          "table": {
+            "columns": ["Job", "Score", "Key issues"],
+            "rows": [
+              ["Find a Person", "80", "Relevance and minor UX"],
+              ["Find a File", "65", "Not keyboard friendly, relevance and inconsistent UX"],
+              ["Find a Group Chat", "70", "Bugs"]
+            ],
+            "caption": "Scorecard per user job."
+          },
+          "record": {
+            "title": "Bug deep dive \u00b7 BUG_03",
+            "fields": [
+              { "key": "Surface", "value": "SERP" },
+              { "key": "Category", "value": "Interaction" },
+              { "key": "Severity", "value": "Major" },
+              { "key": "Score impact", "value": "-15" },
+              { "key": "Description", "value": "Search query is cleared when navigating back from a people result, forcing the user to retype the query." }
+            ]
+          }
+        },
+        {
+          "title": "Human in the loop",
+          "callout": "AI does the evaluating. People make the decisions.",
+          "paragraphs": [
+            "Every run is reviewed by the product manager, designer and engineer."
+          ]
+        },
+        {
+          "title": "Impact",
+          "variant": "outcomes",
+          "list": [
+            "Enabled 4 product teams to move to automatic evaluation of craft.",
+            "Detected 48 bugs for Teams Search on Mobile."
+          ]
+        }
+      ],
+      "visuals": []
+    },
+    {
+      "slug": "synthetic-users",
+      "category": "research-with-ai",
+      "title": "Synthetic Users",
+      "hook": "Testing where synthetic users hold up in research, and where they break",
+      "confidential": false,
+      "role": "Designed and ran the experiments.",
+      "stats": [
+        { "value": "6", "label": "Scenarios" },
+        { "value": "3", "label": "Experiment rounds" }
+      ],
+      "why": {
+        "frame": "I started with a lot of uncertainty, fear and mixed emotions. So I approached it like a researcher: with curiosity, and by looking inward at my own biases. Then I set it up as an experiment.",
+        "insight": "Can synthetic users replace real users for research studies?",
+        "insightLabel": "The question",
+        "insightFirst": true
+      },
+      "sections": [
+        {
+          "title": "The experiment",
+          "columns": 3,
+          "paragraphs": [
+            "Six variations of a contact card were shown to both synthetic and real users. Each variation showed attributes (name, profile picture, contact information) that were similar or different between two contacts, and the task was to identify duplicates.",
+            "Synthetic users came from a custom GPT set up to play a participant in a user interview, and fed transcript data to internalize the role. Three rounds, with both text and image input."
+          ],
+          "cards": [
+            { "label": "Question 1", "text": "Is the contact a duplicate or not?" },
+            { "label": "Question 2", "text": "Should the system handle this, or should it be handled manually?" },
+            { "label": "Question 3", "text": "Should the contacts be linked or merged?" }
+          ],
+          "visuals": [
+            { "src": "assets/SyntheticUser_Setup.png", "alt": "The six contact card variations shown to participants", "caption": "The six contact card variations" }
+          ]
+        },
+        {
+          "title": "What we saw",
+          "paragraphs": [
+            "Synthetic users gave different answers from real users in **all six scenarios**. The gap was starkest in the most complex one, scenario 6."
+          ],
+          "visuals": [
+            { "src": "assets/SyntheticUser_Outcome-web.png", "alt": "Responses by case, with shaded cells where synthetic users differed from real users", "caption": "Responses by case. Shaded cells mark where synthetic answers differed from real users." }
+          ]
+        },
+        {
+          "title": "Takeaways",
+          "columns": 1,
+          "cards": [
+            {
+              "label": "Inconsistent rationale",
+              "text": "Real users who are risk averse stay risk averse across scenarios. Synthetic users don't, unless that behavior is explicitly scripted."
+            },
+            {
+              "label": "Logical, but fixed",
+              "text": "Synthetic users articulated reasoning for most cases, but it was scenario-bound and static. Real users adapted to context: they merged contacts with differing profile images when other attributes aligned, and merged identical pictures despite other differences. Synthetic reasoning counted matching criteria, not the confidence in each."
+            },
+            {
+              "label": "The human layer is missing",
+              "text": "Synthetic responses were linear. Human responses draw on vast experience and an underlying need or pain."
+            }
+          ]
+        },
+        {
+          "title": "My point of view",
+          "callout": "A synthetic user is not going to replace real user feedback.",
+          "paragraphs": [
+            "It can help build better hypotheses when abstracted to a persona level, improve the algorithm, and help refine questions after a pilot."
+          ]
+        },
+        {
+          "title": "Impact",
+          "variant": "outcomes",
+          "list": [
+            "Challenged an existing belief about synthetic users and helped the team understand the current state.",
+            "Enabled the team to reflect on and re-look at synthetic users.",
+            "AI experiment champion in the research community, with the opportunity to present AI topics at UXR Day talks in consecutive years."
+          ]
+        }
+      ],
+      "visuals": []
+    },
+    {
+      "slug": "copilot-dash",
+      "category": "playground",
+      "title": "Copilot Dash",
+      "hook": "A playground for on-device AI: small models on your phone, private and offline",
+      "tag": "Hackathon project",
+      "homeImage": { "src": "assets/CopilotDash-home.png", "alt": "Copilot Dash hackathon page showing the app on a phone" },
+      "confidential": false,
+      "why": {
+        "frame": "A hack for low-cost AI. Small language models offer security, privacy and easy access to AI, and there are **5.7 billion mobile devices** worldwide. Dash puts a capable model right on the phone, no signal needed."
+      },
+      "sections": [
+        {
+          "title": "What it is",
+          "paragraphs": [
+            "A playground for on-device AI. Explore small language models, chat with the model of your choice, use ready-made apps powered by them, or describe a skill and build your own."
+          ],
+          "visuals": [
+            { "src": "assets/CopilotDash-phone.png", "alt": "Copilot Dash home screen on a phone", "caption": "Copilot Dash home screen", "maxWidth": 340 }
+          ]
+        },
+        {
+          "title": "What it offers",
+          "columns": 2,
+          "cards": [
+            { "label": "Choose your model", "text": "Browse the model catalog, pick the best small language model for your device, and download it once." },
+            { "label": "Chat, privately", "text": "Chat with the model of your choice. Conversations stay on the device." },
+            { "label": "Ready-made apps", "text": "Task-focused apps for everyday things like taking notes and studying." },
+            { "label": "Dash Builder", "text": "Create your own AI-native apps just by describing what you want." }
+          ]
+        },
+        {
+          "title": "In action",
+          "columns": 3,
+          "cards": [
+            { "label": "Offline travel", "text": "Mid-flight with no internet, Dash plans an itinerary and answers travel questions, completely offline." },
+            { "label": "Neighborhood shop", "text": "A finance hub reads transaction SMS, tracks income and expenses, and generates spending insights, all from SMS data." },
+            { "label": "Study", "text": "A fifth-grade student in rural India turns textbook chapters into notes and quizzes." }
+          ]
+        },
+        {
+          "title": "Under the hood",
+          "paragraphs": [
+            "A native Android app with a shared on-device inference layer and dedicated pipelines for speech, image and text."
+          ]
+        }
+      ],
+      "visuals": []
+    },
+    {
+      "slug": "baby-milestones",
+      "category": "playground",
+      "title": "Baby Milestones",
+      "hook": "Milestones and matching activities for my toddler, consolidated on one page",
+      "tag": "Personal project",
+      "homeImage": { "src": "assets/BabyMilestones-home.png", "alt": "Baby Milestones app showing milestones and matching activities by age band" },
+      "confidential": false,
+      "why": {
+        "frame": "I wanted to know the key baby milestones and plan activities around each one with my kid. It meant going through many different sites and resources, so I consolidated everything onto a single page to learn, plan, play and enjoy."
+      },
+      "sections": [
+        {
+          "title": "What it does",
+          "columns": 3,
+          "cards": [
+            { "label": "By age", "text": "Pick an age band, from the first months through three years." },
+            { "label": "By milestone", "text": "See the milestones across motor, language, social and cognitive development." },
+            { "label": "By activity", "text": "Each milestone comes with simple activities to try, with effort and time at a glance." }
+          ],
+          "visuals": [
+            { "src": "assets/BabyMilestones-app.png", "alt": "Milestones and matching activities for the 24 to 30 month band", "caption": "A milestone and its matching activities" }
+          ]
+        }
+      ],
+      "visuals": [],
+      "cta": {
+        "label": "Visit the site",
+        "href": "https://baby-milestones-prod.vercel.app/"
+      }
+    }
+  ]
+}
